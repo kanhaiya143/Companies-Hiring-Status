@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding-right: 5cm;
+    padding-left: 5cm;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    
+    margin-right: 2cm;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

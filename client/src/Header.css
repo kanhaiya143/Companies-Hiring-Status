@@ -1,0 +1,50 @@
+header{
+    padding: 0;
+    margin: 0;
+    background-color: tomato;
+    text-align: center;
+   
+    
+ 
+}
+
+header h1{
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 5cm;
+    padding-right: 5cm;
+    margin-top: 2cm;
+}
+
+.company{
+    flex: 0 0 22.5%;
+    text-align: left;
+    padding: 0 10px;
+}
+.type{
+    flex: 0 0 22.5%;
+    text-align: left;
+    padding: 0 10px;
+}
+.status{
+    flex: 0 0 40%;
+}
+.button {
+    color: #162363;
+    background-color: #fedf67;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+    border-radius: 4px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition-property: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
